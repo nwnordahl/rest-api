@@ -35,10 +35,10 @@ async function getProduct(req, res, id) {
 // @route POST /api/products
 async function createProduct(req, res) {
   try {
-    const { title, description, price } = JSON.parse(await getPostData(req));
+    const { name, description, price } = JSON.parse(await getPostData(req));
 
     const product = {
-      title,
+      name,
       description,
       price,
     };
@@ -62,10 +62,10 @@ async function updateProduct(req, res, id) {
       res.writeHead(404, { "Content-Type": "application/json" });
       res.end(JSON.stringify({ message: "Product not found" }));
     } else {
-      const { title, description, price } = JSON.parse(await getPostData(req));
+      const { name, description, price } = JSON.parse(await getPostData(req));
 
       const productData = {
-        title: title || product.title,
+        name: name || product.name,
         description: description || product.description,
         price: price || product.price,
       };
