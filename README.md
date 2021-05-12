@@ -36,4 +36,4 @@ If you see 'Server running on port 5000' in the terminal you are good to go!
 
 ## How to use
 
-Make sure that you have done the steps above. Simple GET requests can be done right in the web browser. More advanced communication (POST, PUT, DELETE, etc.) with the api can be done with software like [Postman](https://www.postman.com/) and [Isomnia](https://insomnia.rest/), or with the [Rest Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) in [VSCode](https://code.visualstudio.com/) using the `requests.http` file.
+If you want to use it locally, make sure that you have done the steps above. Simple GET requests can be done right in the web browser. More advanced communication (POST, PUT, DELETE, etc.) with the api can be done with software like [Postman](https://www.postman.com/) and [Isomnia](https://insomnia.rest/), or with the [Rest Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) in [VSCode](https://code.visualstudio.com/) using the `requests.http` file.
