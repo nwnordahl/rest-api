@@ -1,10 +1,9 @@
 # Rest api
 
-A vanilla [node](https://nodejs.org/en/) rest api. An identical api using [express](https://expressjs.com/) can be found [here](https://github.com/nwnordahl/express-rest-api).
+A vanilla [node](https://nodejs.org/en/) rest api. An identical api using [express](https://expressjs.com/) can be found [here](https://github.com/nwnordahl/express-rest-api). The api is deployed to the cloud with [Heroku](https://heroku.com), and the routes can be accessed with the base url `https://rest-api-4.herokuapp.com/`.
 
 ## TODO
 
-- Host the api in the cloud
 - Integrate with a database
 - Extend with more HTTP methods
 - Hook it up with a front end
@@ -37,4 +36,4 @@ If you see 'Server running on port 5000' in the terminal you are good to go!
 
 ## How to use
 
-Make sure that you have done the steps above. Simple GET requests can be done right in the web browser. More advanced communication (POST, PUT, DELETE, etc.) with the api can be done with software like [Postman](https://www.postman.com/) and [Isomnia](https://insomnia.rest/), or with the [Rest Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) in [VSCode](https://code.visualstudio.com/) using the "requests.http" file.
+Make sure that you have done the steps above. Simple GET requests can be done right in the web browser. More advanced communication (POST, PUT, DELETE, etc.) with the api can be done with software like [Postman](https://www.postman.com/) and [Isomnia](https://insomnia.rest/), or with the [Rest Client extension](https://marketplace.visualstudio.com/items?itemName=humao.rest-client) in [VSCode](https://code.visualstudio.com/) using the `requests.http` file.
